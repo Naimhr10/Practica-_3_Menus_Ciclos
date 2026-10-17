@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Centro_Medico {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        final int ADULTO_MAYOR = 15; // porcentaje de descuento
+        final int ADULTO_MAYOR = 15; 
         double costo;
         double total = 0;
         double promedio;
@@ -40,7 +40,7 @@ public class Centro_Medico {
                     System.out.println("Ingresa el costo de consulta: ");
                     costo = scanner.nextDouble();
 
-                    descuento = 0; // se reinicia en cada consulta
+                    descuento = 0; 
 
                     if (edad < 12) {
                         System.out.println(menor_edad);
